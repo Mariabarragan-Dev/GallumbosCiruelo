@@ -67,7 +67,8 @@ header .logo img {
 }
 
 .nav-links a {
-    font-family: var(--font-family);/*BBH Bogle*/
+    font-family: var(--font-family);
+    /*BBH Bogle*/
     color: var(--primary-color);
     font-size: 20px;
     font-weight: bold;
@@ -161,6 +162,7 @@ header p {
     gap: var(--gap);
     margin: auto;
 }
+
 .destacado {
     border: 2px solid #000;
     background-color: #fbfbfb;
@@ -169,7 +171,7 @@ header p {
     text-align: center;
     margin: 40px auto;
     max-width: 600px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .destacado p {
@@ -178,6 +180,7 @@ header p {
     color: #333;
     margin: 0;
 }
+
 .destacado img {
     width: 100%;
     height: auto;
@@ -185,10 +188,12 @@ header p {
     display: block;
     margin-bottom: 0
 }
+
 .destacado figcaption {
     padding: 20px;
     margin: 0;
 }
+
 .producto {
     background-color: white;
     border-radius: 8px;
@@ -262,6 +267,7 @@ header p {
     font-weight: bold;
     display: block;
 }
+
 /*products*/
 
 /*collections*/
@@ -324,6 +330,7 @@ header p {
     flex-direction: column;
     align-items: center;
 }
+
 /*collections*/
 
 /*about us*/
@@ -358,6 +365,7 @@ header p {
     ;
 
 }
+
 /*about us*/
 
 /*form*/
@@ -445,6 +453,7 @@ textarea {
     background-color: #7a7878;
 
 }
+
 /*form*/
 
 /*footer*/
@@ -517,6 +526,7 @@ footer {
     margin-top: 15px;
     margin-bottom: 5px;
 }
+
 /*footer*/
 
 /*Tablet*/
@@ -546,6 +556,20 @@ footer {
     .productos-lista {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    .destacado {
+        margin: 20px;
+        padding: 10px;
+        max-width: 90%;
+    }
+
+    .destacado p {
+        font-size: 1.1rem;
+    }
+
+    .destacado figcaption {
+        padding: 15px;
     }
 
     .colecciones {
@@ -648,6 +672,20 @@ footer {
         grid-template-columns: 1fr;
         gap: 20px;
         padding: 0 10px;
+    }
+
+    .destacado {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .destacado p {
+        font-size: 1rem;
+    }
+
+    .destacado figcaption {
+        padding: 10px;
     }
 
     .producto figcaption h3 {
@@ -761,24 +799,5 @@ footer {
         #language {
             font-size: 14px;
         }
-    }
-
-
-    .nav-links a {
-        font-size: 12px;
-        /* Muy pequeño */
-        padding: 5px;
-    }
-
-    /* HERO MUY PEQUEÑO */
-    header h1 {
-        font-size: 1.3rem;
-        /* Muy reducido */
-        top: 70px;
-    }
-
-    header p {
-        font-size: 0.9rem;
-        top: 110px;
     }
 }
