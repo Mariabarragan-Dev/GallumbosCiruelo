@@ -823,6 +823,7 @@ footer {
         padding: 8px;
     }
 }
+}
 
 /* Móviles muy pequeños */
 @media (max-width: 480px) {
