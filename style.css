@@ -163,7 +163,7 @@ header p {
     margin: auto;
 }
 
-.destacado {
+.featured {
     border: 2px solid #000;
     background-color: #fbfbfb;
     padding: 0px;
@@ -174,14 +174,14 @@ header p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.destacado p {
+.featured p {
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
     margin: 0;
 }
 
-.destacado img {
+.featured img {
     width: 100%;
     height: auto;
     border-radius: 8px 8px 0 0;
@@ -189,7 +189,7 @@ header p {
     margin-bottom: 0
 }
 
-.destacado figcaption {
+.featured figcaption {
     padding: 20px;
     margin: 0;
 }
@@ -475,7 +475,7 @@ footer {
     height: 80px;
 }
 
-.derechos {
+.Copyright {
     color: var(--primary-color);
     white-space: nowrap;
     font-size: 0.85em;
@@ -558,17 +558,17 @@ footer {
         gap: 20px;
     }
 
-    .destacado {
+    .featured {
         margin: 20px;
         padding: 10px;
         max-width: 90%;
     }
 
-    .destacado p {
+    .featured p {
         font-size: 1.1rem;
     }
 
-    .destacado figcaption {
+    .featured figcaption {
         padding: 15px;
     }
 
@@ -597,7 +597,7 @@ footer {
         text-align: center;
     }
 
-    .derechos {
+    .Copyright {
         order: 2;
         width: 100%;
         text-align: center;
@@ -674,17 +674,17 @@ footer {
         padding: 0 10px;
     }
 
-    .destacado {
+    .featured {
         margin: 0 auto;
         padding: 0;
         max-width: 100%;
     }
 
-    .destacado p {
+    .featured p {
         font-size: 1rem;
     }
 
-    .destacado figcaption {
+    .featured figcaption {
         padding: 10px;
     }
 
@@ -778,7 +778,7 @@ footer {
     .footer-logo img {
         height: 60px;
 
-        .derechos {
+        .Copyright {
             font-size: 0.75em;
         }
 
