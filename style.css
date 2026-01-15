@@ -142,12 +142,12 @@ header p {
 }
 
 /*products*/
-#productos {
+#products {
     padding: 60px 20px;
     background-color: #f9f9f9;
 }
 
-#productos h2 {
+#products h2 {
     text-align: center;
     font-family: var(--font-family);
     font-size: 2.5em;
@@ -155,7 +155,7 @@ header p {
     margin-bottom: 30px;
 }
 
-.productos-lista {
+.products-list {
     display: grid;
     max-width: 1400px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -194,24 +194,24 @@ header p {
     margin: 0;
 }
 
-.producto {
+.product {
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.producto:hover {
+.product:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-.producto figure {
+.product figure {
     position: relative;
     margin: 0;
 }
 
-.producto figure img:first-of-type {
+.product figure img:first-of-type {
     /* imagen visible */
     width: 100%;
     height: 100%;
@@ -220,7 +220,7 @@ header p {
     transition: opacity 0.3s ease;
 }
 
-.producto figure img:last-of-type {
+.product figure img:last-of-type {
     /* imagen oculta */
     width: 100%;
     height: 100%;
@@ -232,16 +232,16 @@ header p {
     transition: opacity 0.3s ease;
 }
 
-.producto figure:hover img:first-of-type {
+.product figure:hover img:first-of-type {
     /*ocultar imagen*/
     opacity: 0;
 }
 
-.producto figure:hover img:last-of-type {
+.product figure:hover img:last-of-type {
     opacity: 1;
 }
 
-.producto figcaption {
+.product figcaption {
     font-family: var(--font-family);
     color: var(--secundary-color);
     text-align: center;
@@ -251,18 +251,18 @@ header p {
     z-index: 3;
 }
 
-.producto figcaption h3 {
+.product figcaption h3 {
     font-size: 1.3rem;
     margin-bottom: 10px;
 
 }
 
-.producto figcaption p {
+.product figcaption p {
     font-size: 1.3rem;
     margin-bottom: 10px;
 }
 
-.producto figcaption strong {
+.product figcaption strong {
     font-size: 1.2rem;
     font-weight: bold;
     display: block;
@@ -271,12 +271,12 @@ header p {
 /*products*/
 
 /*collections*/
-#coleccion {
+#collection {
     padding: 60px 20px;
     background-color: #f9f9f9;
 }
 
-#coleccion h2 {
+#new-collection h2 {
     text-align: center;
     font-family: var(--font-family);
     font-size: 2.5em;
@@ -284,7 +284,7 @@ header p {
     margin-bottom: 30px;
 }
 
-#coleccion p {
+#new-collection p {
     text-align: center;
     font-family: var(--font-family);
     font-size: 2em;
@@ -292,7 +292,7 @@ header p {
     margin-bottom: 30px;
 }
 
-#coleccion h3 {
+#collection h3 {
     text-align: center;
     font-family: sans-serif;
     color: var(--primary-color);
@@ -303,14 +303,14 @@ header p {
     border-radius: 2px;
 }
 
-.coleccion {
+.collection {
     display: flex;
     flex: 1;
     align-items: center;
     flex-direction: column;
 }
 
-.coleccion img {
+.collection img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -318,13 +318,13 @@ header p {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(117, 170, 146, 0.23) 0px 6px 6px;
 }
 
-.colecciones {
+.collections {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.coleccion {
+.collection {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -334,12 +334,12 @@ header p {
 /*collections*/
 
 /*about us*/
-#sobre-nosotros {
+#about-us {
     margin-top: 0;
     background-color: #f9f9f9
 }
 
-#sobre-nosotros h2 {
+#about-us h2 {
     text-align: center;
     font-family: var(--font-family);
     font-size: 2.5em;
@@ -347,7 +347,7 @@ header p {
     margin-bottom: 30px;
 }
 
-#sobre-nosotros p {
+#about-us p {
     font-family: var(--font-family);
     font-size: 1.3em;
     text-align: justify;
@@ -356,7 +356,7 @@ header p {
     color: var(--primary-color);
 }
 
-.cuadro-sobre-nosotros {
+.about-us-box{
     border: 2px solid #000000;
     padding: 1.5rem;
     border-radius: 8px;
@@ -369,13 +369,13 @@ header p {
 /*about us*/
 
 /*form*/
-#contacto h2 {
+#contact h2 {
     text-align: center;
     font-family: var(--font-family);
     font-size: 2.5em;
     margin-top: 80px;
-    margin-bottom: 30px;
-    padding-bottom: 80px;
+    margin-bottom: 40px;
+    /*padding-bottom: 80px;*/
 }
 
 #formulario {
@@ -407,7 +407,7 @@ label {
     margin-bottom: 5px;
 }
 
-#opciones {
+#options {
     color: rgb(0, 0, 0);
     font-family: var(--font-family);
     display: block;
@@ -416,7 +416,7 @@ label {
     border: 2px solid rgb(0, 0, 0);
 }
 
-#opciones option {
+#options option {
     color: rgb(0, 0, 0);
     font-family: var(--font-family);
     display: block;
@@ -481,17 +481,17 @@ footer {
     font-size: 0.85em;
 }
 
-.politicas {
+.Policy {
     display: flex;
     list-style: none;
     gap: 30px;
 }
 
-.politicas li {
+.Policy li {
     list-style: none;
 }
 
-.politicas a {
+.Policy a {
     color: var(--primary-color);
     font-family: var(--font-family);
     text-decoration: none;
@@ -499,7 +499,7 @@ footer {
 
 }
 
-.politicas a:hover {
+.Policy a:hover {
     color: white;
 }
 
@@ -553,7 +553,7 @@ footer {
         top: 160px;
     }
 
-    .productos-lista {
+    .products-list {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
@@ -572,12 +572,12 @@ footer {
         padding: 15px;
     }
 
-    .colecciones {
+    .collections {
         flex-direction: column;
         gap: 30px;
     }
 
-    .coleccion img {
+    .collection img {
         height: 250px;
     }
 
@@ -603,7 +603,7 @@ footer {
         text-align: center;
     }
 
-    .politicas {
+    .Policy {
         order: 3;
         width: 100%;
         justify-content: center;
@@ -663,12 +663,12 @@ footer {
         margin-bottom: 20px;
     }
 
-    #productos h2 {
+    #products h2 {
         font-size: 1.8em;
         margin-top: 20px;
     }
 
-    .productos-lista {
+    .products-list {
         grid-template-columns: 1fr;
         gap: 20px;
         padding: 0 10px;
@@ -688,37 +688,37 @@ footer {
         padding: 10px;
     }
 
-    .producto figcaption h3 {
+    .product figcaption h3 {
         font-size: 1.1rem;
     }
 
-    .producto figcaption p {
+    .product figcaption p {
         font-size: 1rem;
     }
 
-    .producto figcaption strong {
+    .product figcaption strong {
         font-size: 1.1rem;
     }
 
-    #coleccion h2 {
+    #new-collection h2 {
         font-size: 1.8em;
         margin-top: 20px;
     }
 
-    #coleccion p {
+    #new-collection p {
         font-size: 1.5em;
     }
 
-    #coleccion h3 {
+    #collection h3 {
         font-size: 1.3em;
     }
 
-    .colecciones {
+    .collections {
         flex-direction: column;
         gap: 25px;
     }
 
-    .coleccion img {
+    .collection img {
         height: 200px;
     }
 
@@ -733,11 +733,11 @@ footer {
         padding: 0 10px;
     }
 
-    .cuadro-sobre-nosotros {
+    .about-us-box {
         padding: 1rem;
     }
 
-    #contacto h2 {
+    #contact h2 {
         font-size: 1.8em;
         margin-top: 20px;
         padding-bottom: 40px;
@@ -782,13 +782,13 @@ footer {
             font-size: 0.75em;
         }
 
-        .politicas {
+        .Policy {
             flex-direction: column;
             gap: 10px;
             text-align: center;
         }
 
-        .politicas a {
+        .Policy a {
             font-size: 0.8em;
         }
 
